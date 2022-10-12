@@ -10,3 +10,7 @@ network.host: 0.0.0.0
 #
 xpack.license.self_generated.type: trial
 xpack.security.enabled: true
+
+# X-Pack settings to disable https 
+xpack.security.http.ssl.enabled: false
+xpack.security.transport.ssl.enabled: false
